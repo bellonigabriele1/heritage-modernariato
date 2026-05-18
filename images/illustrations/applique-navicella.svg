@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="wall-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5f1e8"/>
+      <stop offset="1" stop-color="#e8e0d0"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3a36"/>
+      <stop offset="0.5" stop-color="#2a2826"/>
+      <stop offset="1" stop-color="#1a1816"/>
+    </linearGradient>
+    <radialGradient id="glass-mottle" cx="0.5" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#5a5650" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#5a5650" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d4cdb8"/>
+      <stop offset="0.5" stop-color="#a89e84"/>
+      <stop offset="1" stop-color="#85785f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#wall-bg)"/>
+  <!-- subtle wall shadow -->
+  <ellipse cx="400" cy="380" rx="320" ry="28" fill="#000" opacity="0.06"/>
+  <!-- glass body (oval) -->
+  <ellipse cx="400" cy="320" rx="280" ry="50" fill="url(#glass)"/>
+  <ellipse cx="400" cy="320" rx="280" ry="50" fill="url(#glass-mottle)"/>
+  <!-- chrome tips (triangular) -->
+  <path d="M 122 320 L 158 295 L 158 345 Z" fill="url(#chrome)"/>
+  <path d="M 678 320 L 642 295 L 642 345 Z" fill="url(#chrome)"/>
+  <!-- highlight on glass -->
+  <ellipse cx="400" cy="295" rx="220" ry="10" fill="#fff" opacity="0.08"/>
+  <!-- mount -->
+  <rect x="386" y="360" width="28" height="22" fill="#1a1816"/>
+  <rect x="392" y="378" width="16" height="8" fill="#0a0a08"/>
+</svg>

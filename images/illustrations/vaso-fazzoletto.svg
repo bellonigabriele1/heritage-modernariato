@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg-faz" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#efebe2"/>
+      <stop offset="1" stop-color="#d8d2c2"/>
+    </linearGradient>
+    <linearGradient id="lattimo" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#fdfaf3"/>
+      <stop offset="0.5" stop-color="#f3ecd9"/>
+      <stop offset="1" stop-color="#d8cfb6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-faz)"/>
+  <!-- shadow base -->
+  <ellipse cx="400" cy="500" rx="180" ry="14" fill="#000" opacity="0.1"/>
+  <!-- fazzoletto body: irregular wavy top edge -->
+  <path d="M 280 480
+           L 250 280
+           Q 270 240 320 220
+           L 340 180
+           Q 370 140 400 180
+           L 430 140
+           Q 470 130 480 180
+           L 510 200
+           Q 555 230 545 280
+           L 520 480
+           Z"
+        fill="url(#lattimo)" stroke="#a89870" stroke-width="1.5"/>
+  <!-- highlight -->
+  <path d="M 305 460 Q 305 320 330 230" stroke="#fff" stroke-width="6" fill="none" opacity="0.5"/>
+  <path d="M 490 460 Q 490 320 470 240" stroke="#fff" stroke-width="3" fill="none" opacity="0.3"/>
+  <!-- subtle inner edge -->
+  <path d="M 295 480 L 270 290 Q 290 250 335 230" stroke="#cdbf95" stroke-width="1" fill="none" opacity="0.6"/>
+</svg>

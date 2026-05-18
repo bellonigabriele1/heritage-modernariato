@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contatti — Heritage Modernariato</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      Heritage Modernariato
+      <small>marketplace curato</small>
+    </a>
+    <button class="menu-toggle" aria-label="Menu">☰</button>
+    <nav class="nav">
+      <a href="catalogo.html">Catalogo</a>
+      <a href="come-funziona.html">Come funziona</a>
+      <a href="chi-siamo.html">Chi siamo</a>
+      <a href="contatti.html" class="active">Contatti</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-header">
+    <div class="container">
+      <div class="eyebrow">Contatti</div>
+      <h1>Scrivici.</h1>
+      <p class="lede">Per richieste su pezzi specifici, per proporre un'opera dalla tua collezione, o semplicemente per una consulenza preliminare. Rispondiamo entro 48 ore lavorative.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container" style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 4rem;">
+      <div>
+        <h2 style="margin-bottom: 1.5rem;">Modulo di contatto</h2>
+        <!--
+          PER ATTIVARE: registrati su https://formspree.io (gratis fino a 50 invii/mese),
+          ottieni un endpoint del tipo https://formspree.io/f/XXXXXXX
+          e sostituiscilo nell'attributo action qui sotto.
+        -->
+        <form class="form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div>
+            <label for="name">Nome e cognome</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="phone">Telefono (opzionale)</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div>
+            <label for="reason">Motivo del contatto</label>
+            <select id="reason" name="reason">
+              <option value="acquisto">Sono interessato a un pezzo</option>
+              <option value="proposta">Voglio proporre un pezzo</option>
+              <option value="consulenza">Consulenza generale</option>
+              <option value="altro">Altro</option>
+            </select>
+          </div>
+          <div>
+            <label for="subject">Oggetto</label>
+            <input type="text" id="subject" name="subject">
+          </div>
+          <div>
+            <label for="message">Messaggio</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div>
+            <button type="submit" class="btn">Invia richiesta</button>
+          </div>
+          <p style="font-size: 0.78rem; color: var(--color-muted); margin-top: 0.5rem;">Inviando il modulo accetti che le informazioni vengano utilizzate per rispondere alla tua richiesta. I dati non vengono ceduti a terzi.</p>
+        </form>
+      </div>
+
+      <aside style="background: #f3f1ea; padding: 2rem; align-self: start;">
+        <h3 style="margin-bottom: 1rem;">Recapiti diretti</h3>
+        <p style="font-size: 0.95rem;">
+          <strong>Email</strong><br>
+          info@heritagemodernariato.it
+        </p>
+        <p style="font-size: 0.95rem;">
+          <strong>Orari</strong><br>
+          Lunedì – Venerdì<br>
+          10:00 – 18:00
+        </p>
+        <hr style="border: 0; border-top: 1px solid var(--color-line); margin: 1.5rem 0;">
+        <h3 style="margin-bottom: 1rem;">Hai un pezzo da proporre?</h3>
+        <p style="font-size: 0.9rem; color: var(--color-ink-soft);">Inviaci fotografie chiare del pezzo (più angolazioni, eventuali firme/etichette in dettaglio) e tutte le informazioni che hai sulla provenienza. Più dettagli ci fornisci, più rapida sarà la nostra risposta.</p>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo">Heritage Modernariato<small>marketplace curato</small></div>
+        <p style="margin-top: 1rem;">Selezione e mediazione di pezzi di modernariato italiano da collezioni private.</p>
+      </div>
+      <div>
+        <h4>Catalogo</h4>
+        <a href="catalogo.html?cat=lampade">Lampade</a>
+        <a href="catalogo.html?cat=vetri">Vetri d'autore</a>
+        <a href="catalogo.html?cat=arredi">Arredi</a>
+        <a href="catalogo.html?cat=sculture">Sculture</a>
+      </div>
+      <div>
+        <h4>Informazioni</h4>
+        <a href="come-funziona.html">Come funziona</a>
+        <a href="chi-siamo.html">Chi siamo</a>
+        <a href="crediti.html">Crediti immagini</a>
+        <a href="contatti.html">Contatti</a>
+      </div>
+      <div>
+        <h4>Contatti</h4>
+        <p style="font-size: 0.85rem;">info@heritagemodernariato.it<br>Lun–Ven 10:00–18:00</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Heritage Modernariato — Tutti i diritti riservati</span>
+      <span>P.IVA da definire · Sede legale: Italia</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

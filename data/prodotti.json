@@ -1,0 +1,463 @@
+{
+  "categorie": [
+    {
+      "id": "lampade",
+      "nome": "Lampade & Illuminazione"
+    },
+    {
+      "id": "vetri",
+      "nome": "Vetri d'Autore"
+    },
+    {
+      "id": "arredi",
+      "nome": "Arredi"
+    },
+    {
+      "id": "sculture",
+      "nome": "Sculture & Oggetti"
+    }
+  ],
+  "prodotti": [
+    {
+      "id": "bt-applique-01",
+      "slug": "applique-navicella-barovier-toso-01",
+      "title": "Applique a navicella — Set di 12 esemplari coordinati",
+      "maker": "Barovier & Toso",
+      "year": "circa 1985-1990",
+      "category": "lampade",
+      "price": 380,
+      "priceOriginal": null,
+      "status": "available",
+      "featured": true,
+      "images": [
+        "images/lampade/lamp1.jpg",
+        "images/lampade/lamp2.jpg",
+        "images/lampade/bt-yellow-wall.jpg",
+        "images/lampade/bt-brick-wall.jpg",
+        "images/lampade/bt-brick-pillar.jpg",
+        "images/lampade/bt-detail-label.jpg",
+        "images/lampade/bt-detail-label-2.jpg",
+        "images/lampade/bt-white-wall.jpg"
+      ],
+      "placeholder": "B&T",
+      "shortDescription": "Set raro di 12 applique coordinate in vetro di Murano scavato con finiture cromate. Disegno modernista a forma di navicella, tipico della produzione Barovier & Toso degli anni '80-'90. Provenienti dalla stessa installazione residenziale, consentono una composizione luminosa uniforme su intero ambiente o piano. Acquistabili anche in numero ridotto.",
+      "specs": {
+        "Dimensioni": "L 60 cm × H 18 cm × P 22 cm",
+        "Materiali": "Vetro di Murano scavato, applicazioni in metallo cromato",
+        "Lampadina": "E27 (max 60W) — non inclusa",
+        "Condizioni": "Eccellenti, originale degli anni '80",
+        "Provenienza": "Abitazione privata, Nord Italia",
+        "Quantità": "Lotto di 12 esemplari coordinati (acquistabili anche separatamente)"
+      },
+      "authenticity": "Etichetta originale Barovier & Toso presente sul retro (vedi foto dettaglio). Verifica eseguita dal nostro consulente specializzato in vetri di Murano.",
+      "notes": "Sconto progressivo per quantità: più esemplari si acquistano, minore il prezzo unitario. Acquistare il set completo di 12 garantisce il prezzo più conveniente (€380 cad.) e la composizione luminosa originale dell'installazione.",
+      "pricingTiers": [
+        {
+          "min": 1,
+          "max": 1,
+          "unit": 580,
+          "label": "1 pezzo"
+        },
+        {
+          "min": 2,
+          "max": 5,
+          "unit": 490,
+          "label": "2–5 pezzi"
+        },
+        {
+          "min": 6,
+          "max": 11,
+          "unit": 420,
+          "label": "6–11 pezzi"
+        },
+        {
+          "min": 12,
+          "max": 12,
+          "unit": 380,
+          "label": "Set completo (12 pezzi)",
+          "best": true
+        }
+      ],
+      "quantity": {
+        "available": 12,
+        "min": 1,
+        "default": 12
+      }
+    },
+    {
+      "id": "venini-fazzoletto",
+      "slug": "vaso-fazzoletto-venini",
+      "title": "Vaso \"Fazzoletto\"",
+      "maker": "Venini, design Fulvio Bianconi & Paolo Venini",
+      "year": "produzione anni '90",
+      "category": "vetri",
+      "price": 1850,
+      "status": "available",
+      "featured": true,
+      "placeholder": "Venini",
+      "shortDescription": "Iconico vaso \"Fazzoletto\" in vetro di Murano lattimo, firmato. Esemplare in ottime condizioni, dimensioni medie.",
+      "specs": {
+        "Dimensioni": "H 26 cm × Ø 24 cm",
+        "Materiali": "Vetro lattimo soffiato",
+        "Firma": "Incisa alla base \"Venini Murano Italia\"",
+        "Condizioni": "Ottime",
+        "Provenienza": "Collezionista privato, Milano"
+      },
+      "authenticity": "Firma incisa originale, foto disponibile su richiesta.",
+      "images": [
+        "images/civetta/fazzoletto.jpg"
+      ]
+    },
+    {
+      "id": "vistosi-giogali",
+      "slug": "lampadario-giogali-vistosi",
+      "title": "Lampadario \"Giogali\"",
+      "maker": "Vistosi, design Angelo Mangiarotti",
+      "year": "anni '70",
+      "category": "lampade",
+      "price": 3400,
+      "status": "reserved",
+      "featured": false,
+      "placeholder": "Vistosi",
+      "shortDescription": "Lampadario a sospensione composto da elementi in cristallo a uncino concatenati. Versione di medie dimensioni.",
+      "specs": {
+        "Dimensioni": "Ø 60 cm × H 80 cm (regolabile)",
+        "Materiali": "Cristallo soffiato, struttura cromata",
+        "Lampadine": "5x E14",
+        "Condizioni": "Ottime, tutti gli elementi presenti",
+        "Provenienza": "Studio professionale, Roma"
+      },
+      "authenticity": "Verificato dal nostro consulente. Documentazione fotografica disponibile.",
+      "images": [
+        "images/civetta/giogali.jpg"
+      ]
+    },
+    {
+      "id": "seguso-sommerso",
+      "slug": "vaso-sommerso-seguso",
+      "title": "Vaso \"Sommerso\" bicolore",
+      "maker": "Seguso Vetri d'Arte",
+      "year": "anni '60",
+      "category": "vetri",
+      "price": 1200,
+      "status": "available",
+      "featured": false,
+      "placeholder": "Seguso",
+      "shortDescription": "Vaso a tecnica \"sommerso\" con strati di vetro ametista e ambra. Pezzo da collezione in ottime condizioni.",
+      "specs": {
+        "Dimensioni": "H 22 cm × Ø 14 cm",
+        "Materiali": "Vetro sommerso ametista/ambra",
+        "Firma": "Non firmato, attribuito",
+        "Condizioni": "Ottime",
+        "Provenienza": "Eredità di collezionista, Veneto"
+      },
+      "authenticity": "Attribuzione confermata da esperto in vetri muranesi del periodo.",
+      "images": [
+        "images/civetta/seguso-sommerso.jpg"
+      ]
+    },
+    {
+      "id": "mazzega-nason",
+      "slug": "lampada-mazzega-nason",
+      "title": "Lampada da tavolo a fungo",
+      "maker": "Mazzega, design Carlo Nason",
+      "year": "anni '70",
+      "category": "lampade",
+      "price": 1650,
+      "status": "available",
+      "featured": false,
+      "placeholder": "Mazzega",
+      "shortDescription": "Iconica lampada a fungo in vetro di Murano opalino bianco con base in metallo cromato.",
+      "specs": {
+        "Dimensioni": "H 38 cm × Ø 32 cm",
+        "Materiali": "Vetro opalino soffiato, base in metallo cromato",
+        "Lampadina": "E27 (max 100W)",
+        "Condizioni": "Ottime, vetro integro",
+        "Provenienza": "Privato, Torino"
+      },
+      "authenticity": "Modello documentato nel catalogo storico Mazzega.",
+      "images": [
+        "images/civetta/mazzega-fungo.jpg"
+      ]
+    },
+    {
+      "id": "venini-diamante",
+      "slug": "lampada-diamante-venini",
+      "title": "Lampada da tavolo \"Diamante\"",
+      "maker": "Venini",
+      "year": "anni '80",
+      "category": "lampade",
+      "price": 2200,
+      "priceOriginal": 2800,
+      "status": "sold",
+      "featured": false,
+      "placeholder": "Venini",
+      "shortDescription": "Lampada da tavolo con diffusore in vetro lavorato a effetto diamante. Esemplare venduto, in vetrina come riferimento.",
+      "specs": {
+        "Dimensioni": "H 42 cm × Ø 28 cm",
+        "Materiali": "Vetro soffiato lavorato, base in ottone",
+        "Lampadina": "E27",
+        "Condizioni": "Ottime",
+        "Provenienza": "Collezione privata"
+      },
+      "authenticity": "Firma Venini incisa alla base.",
+      "images": [
+        "images/civetta/venini-diamante.jpg"
+      ]
+    },
+    {
+      "id": "oluce-atollo",
+      "slug": "lampada-atollo-oluce",
+      "title": "Lampada \"Atollo 233\"",
+      "maker": "O-Luce, design Vico Magistretti",
+      "year": "produzione anni '80",
+      "category": "lampade",
+      "price": 1950,
+      "status": "available",
+      "featured": true,
+      "placeholder": "O-Luce",
+      "shortDescription": "L'iconica lampada Atollo 233, disegnata nel 1977 da Magistretti. Versione in metallo verniciato nero opaco.",
+      "specs": {
+        "Dimensioni": "H 70 cm × Ø 50 cm",
+        "Materiali": "Metallo verniciato",
+        "Lampadina": "E27",
+        "Condizioni": "Ottime, originale di produzione anni '80",
+        "Provenienza": "Studio di architetto, Milano"
+      },
+      "authenticity": "Etichetta O-Luce originale alla base.",
+      "images": [
+        "images/civetta/atollo.jpg"
+      ]
+    },
+    {
+      "id": "flos-arco",
+      "slug": "lampada-arco-flos",
+      "title": "Lampada \"Arco\"",
+      "maker": "Flos, design Achille e Pier Giacomo Castiglioni",
+      "year": "produzione anni '70-'80",
+      "category": "lampade",
+      "price": 2800,
+      "status": "reserved",
+      "featured": false,
+      "placeholder": "Flos",
+      "shortDescription": "Lampada da terra Arco, base in marmo di Carrara, stelo in acciaio, riflettore in alluminio.",
+      "specs": {
+        "Dimensioni": "H 240 cm, base 30×30 cm",
+        "Materiali": "Marmo di Carrara, acciaio, alluminio satinato",
+        "Lampadina": "E27",
+        "Condizioni": "Ottime, marmo senza scheggiature",
+        "Provenienza": "Abitazione privata, Bologna"
+      },
+      "authenticity": "Etichetta Flos originale presente sullo stelo.",
+      "images": [
+        "images/civetta/arco.jpg"
+      ]
+    },
+    {
+      "id": "martinelli-pipistrello",
+      "slug": "lampada-pipistrello-martinelli",
+      "title": "Lampada \"Pipistrello\"",
+      "maker": "Martinelli Luce, design Gae Aulenti",
+      "year": "anni '80",
+      "category": "lampade",
+      "price": 1700,
+      "status": "available",
+      "featured": false,
+      "placeholder": "Martinelli",
+      "shortDescription": "Lampada da tavolo Pipistrello, versione media, struttura cromata e diffusore in metacrilato bianco.",
+      "specs": {
+        "Dimensioni": "H 66-86 cm (telescopica) × Ø 55 cm",
+        "Materiali": "Acciaio cromato, metacrilato",
+        "Lampadina": "4x E14",
+        "Condizioni": "Ottime",
+        "Provenienza": "Privato, Firenze"
+      },
+      "authenticity": "Etichetta Martinelli Luce originale.",
+      "images": [
+        "images/civetta/pipistrello.jpg"
+      ]
+    },
+    {
+      "id": "oluce-acrilica",
+      "slug": "lampada-acrilica-oluce",
+      "title": "Lampada \"Acrilica\"",
+      "maker": "O-Luce, design Joe Colombo",
+      "year": "produzione anni '70",
+      "category": "lampade",
+      "price": 2400,
+      "priceOriginal": 2900,
+      "status": "sold",
+      "featured": false,
+      "placeholder": "O-Luce",
+      "shortDescription": "Lampada da tavolo iconica del design italiano. Diffusore in metacrilato curvato che convoglia la luce. Esemplare venduto.",
+      "specs": {
+        "Dimensioni": "H 36 cm × L 25 cm",
+        "Materiali": "Metacrilato, base in metallo verniciato",
+        "Lampadina": "Inclusa, originale",
+        "Condizioni": "Ottime"
+      },
+      "authenticity": "Modello documentato, primo lancio 1962."
+    },
+    {
+      "id": "memphis-tahiti",
+      "slug": "lampada-tahiti-memphis",
+      "title": "Lampada \"Tahiti\"",
+      "maker": "Memphis Milano, design Ettore Sottsass",
+      "year": "produzione anni '80",
+      "category": "lampade",
+      "price": 3200,
+      "status": "available",
+      "featured": false,
+      "placeholder": "Memphis",
+      "shortDescription": "Lampada da tavolo a forma di uccello, simbolo del movimento Memphis. Colori originali.",
+      "specs": {
+        "Dimensioni": "H 65 cm × L 60 cm",
+        "Materiali": "Metallo laccato, plastica laminata",
+        "Lampadina": "E14",
+        "Condizioni": "Ottime, colori vivi",
+        "Provenienza": "Collezione privata, design anni '80"
+      },
+      "authenticity": "Etichetta Memphis Milano presente alla base.",
+      "images": [
+        "images/civetta/tahiti-memphis.jpg"
+      ]
+    },
+    {
+      "id": "venini-bolle",
+      "slug": "vaso-bolle-venini",
+      "title": "Vaso \"Bolle\"",
+      "maker": "Venini, design Tapio Wirkkala",
+      "year": "anni '90",
+      "category": "vetri",
+      "price": 1450,
+      "status": "reserved",
+      "featured": false,
+      "placeholder": "Venini",
+      "shortDescription": "Vaso bicolore in vetro soffiato, design di Tapio Wirkkala per Venini. Forma a doppia bolla sovrapposta.",
+      "specs": {
+        "Dimensioni": "H 32 cm × Ø 18 cm",
+        "Materiali": "Vetro soffiato bicolore",
+        "Firma": "Venini Italia incisa",
+        "Condizioni": "Ottime"
+      },
+      "authenticity": "Firma originale incisa alla base.",
+      "images": [
+        "images/civetta/venini-bolle.jpg"
+      ]
+    },
+    {
+      "id": "barovier-cordonato",
+      "slug": "ciotola-cordonato-oro-barovier",
+      "title": "Ciotola \"Cordonato d'Oro\"",
+      "maker": "Barovier & Toso, design Ercole Barovier",
+      "year": "edizione anni '80 da modello 1950",
+      "category": "vetri",
+      "price": 980,
+      "priceOriginal": 1200,
+      "status": "sold",
+      "featured": false,
+      "placeholder": "B&T",
+      "shortDescription": "Ciotola in vetro con inclusioni di foglia d'oro, dalla serie storica \"Cordonato d'Oro\". Esemplare venduto.",
+      "specs": {
+        "Dimensioni": "H 9 cm × Ø 22 cm",
+        "Materiali": "Vetro soffiato con inclusioni in foglia d'oro 24kt",
+        "Condizioni": "Ottime"
+      },
+      "authenticity": "Etichetta Barovier & Toso presente.",
+      "images": [
+        "images/civetta/barovier-cordonato.jpg"
+      ]
+    },
+    {
+      "id": "kartell-componibili",
+      "slug": "componibili-kartell-anna-castelli",
+      "title": "Cassettiera \"Componibili\" — 4 elementi",
+      "maker": "Kartell, design Anna Castelli Ferrieri",
+      "year": "produzione anni '80",
+      "category": "arredi",
+      "price": 320,
+      "priceOriginal": 420,
+      "status": "sold",
+      "featured": false,
+      "placeholder": "Kartell",
+      "shortDescription": "Iconica cassettiera modulare in ABS colore bianco, 4 elementi sovrapposti. Esemplare venduto.",
+      "specs": {
+        "Dimensioni": "H 80 cm × Ø 32 cm",
+        "Materiali": "ABS termoplastico",
+        "Condizioni": "Buone"
+      },
+      "authenticity": "Marchio Kartell stampato sul fondo.",
+      "images": [
+        "images/civetta/componibili.jpg"
+      ]
+    },
+    {
+      "id": "cassina-lc4",
+      "slug": "chaise-longue-lc4-cassina",
+      "title": "Chaise Longue LC4",
+      "maker": "Cassina, design Le Corbusier / Jeanneret / Perriand",
+      "year": "produzione anni '90",
+      "category": "arredi",
+      "price": 4200,
+      "status": "available",
+      "featured": false,
+      "placeholder": "Cassina",
+      "shortDescription": "Chaise longue LC4, rivestimento in pelle nera originale, struttura cromata. Edizione Cassina autorizzata.",
+      "specs": {
+        "Dimensioni": "L 160 × P 56 × H 70 cm",
+        "Materiali": "Acciaio cromato, pelle nera",
+        "Condizioni": "Ottime",
+        "Provenienza": "Privato, Milano"
+      },
+      "authenticity": "Numero di serie Cassina presente, registrato.",
+      "images": [
+        "images/civetta/lc4.jpg"
+      ]
+    },
+    {
+      "id": "scultura-murano-pesce",
+      "slug": "scultura-pesce-murano-formia",
+      "title": "Scultura \"Pesce\" sommerso",
+      "maker": "Vetreria Formia, attribuita",
+      "year": "anni '70",
+      "category": "sculture",
+      "price": 680,
+      "status": "available",
+      "featured": false,
+      "placeholder": "Murano",
+      "shortDescription": "Scultura decorativa a forma di pesce in vetro sommerso bicolore, ametista e acqua.",
+      "specs": {
+        "Dimensioni": "L 32 cm × H 18 cm",
+        "Materiali": "Vetro sommerso",
+        "Firma": "Non firmato, attribuito",
+        "Condizioni": "Ottime"
+      },
+      "authenticity": "Attribuzione su base stilistica e tecnica esecutiva.",
+      "images": [
+        "images/civetta/pesce-murano.jpg"
+      ]
+    },
+    {
+      "id": "lattimo-ciotola",
+      "slug": "ciotola-lattimo-anni-50",
+      "title": "Coppia di ciotole in lattimo",
+      "maker": "Manifattura muranese, anni '50",
+      "year": "circa 1950-1960",
+      "category": "vetri",
+      "price": 540,
+      "status": "available",
+      "featured": false,
+      "placeholder": "Murano",
+      "shortDescription": "Coppia di ciotole in vetro lattimo con bordi dorati. Pezzi non firmati, attribuibili a manifattura muranese.",
+      "specs": {
+        "Dimensioni": "Ø 18 cm (cad.)",
+        "Materiali": "Vetro lattimo, bordo in oro",
+        "Condizioni": "Buone, lievi segni del tempo"
+      },
+      "authenticity": "Non firmate, attribuzione su base stilistica.",
+      "images": [
+        "images/civetta/lattimo.jpg"
+      ]
+    }
+  ]
+}
